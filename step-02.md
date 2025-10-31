@@ -39,6 +39,7 @@ cd easy-gost && start build-req ACCOUNT-ID
 
 
 Загрузите полученный на предыдущем шаге файл C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.csr
+
 ---
 
 > После успешного выпуска сертификатов должен происходить переход на третий шаг.
