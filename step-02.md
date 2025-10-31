@@ -16,6 +16,8 @@
     sudo mv /opt/easy-gost/keys/ACCOUNT-ID.key /etc/openvpn-gost/client.key
     sudo chmod 0400 /etc/openvpn-gost/client.key
 
+Загрузите полученный на предыдущем шаге файл /opt/easy-gost/keys/ACCOUNT-ID.csr
+
 > При создании запроса рекомендуется указывать какое-то имя, которое будет идентифицировать сертификат. Здесь нужно подумать, нужна ли нам произвольная часть. Кажется, что нужна, поскольку без нее повторение вышеуказанных команд завершится с ошибкой.
 
 > Часть для Windows систем:
@@ -35,8 +37,8 @@ cd easy-gost && start build-req ACCOUNT-ID
 
     move C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.key C:\cryptopack4\config\client.key
 
----
 
-Загрузите полученный на предыдущем шаге файл /opt/easy-gost/keys/ACCOUNT-ID.csr
+Загрузите полученный на предыдущем шаге файл C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.csr
+---
 
 > После успешного выпуска сертификатов должен происходить переход на третий шаг.
