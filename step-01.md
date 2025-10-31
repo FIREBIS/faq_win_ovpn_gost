@@ -41,8 +41,17 @@
 
     sudo -H /opt/cryptopack4/bin/mkseed
 
+
 > Часть для Windows систем:
 
-![Логотип проекта](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_1.png)
+Для установки ПО на Windows лицензия уже должна быть приобретена. Необходимо запустить установщик и на третьем шаге указать ключ продукта:
+![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_3.png)
+При выборе генератора случайных чисел указать "Программный":
+![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_4.png)
+Папку для установки рекомендуем оставить по умлочанию "C:\cryptopack4".
+Во время установки появится окно с модулем "gmkseed", в которое необходимо перейти и нажать кнопку "Начать", затем нажимать на появляющиеся круги до момента пока они не пропадут:
+![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_6.png)
+после чего можно нажать "Выход" и установка продолжится:
+![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_7.png)
 
 > На этом шаг "Настройка ПО" заканчивается. Кнопка "Продолжить" НЕ должна быть заблокирована.
