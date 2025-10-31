@@ -11,7 +11,7 @@
     /opt/easy-gost/keys/ACCOUNT-ID.key
     /opt/easy-gost/keys/ACCOUNT-ID.csr
 
-Файл с ключем скопируйте в рабочий каталог OpenVPN-ГОСТ:
+Файл с ключом скопируйте в рабочий каталог OpenVPN-ГОСТ:
 
     sudo mv /opt/easy-gost/keys/ACCOUNT-ID.key /etc/openvpn-gost/client.key
     sudo chmod 0400 /etc/openvpn-gost/client.key
@@ -20,9 +20,20 @@
 
 > Часть для Windows систем:
 
-Перейдите в каталог установщика в папку easy-gost и запустите файл __build-ca.bat__ для создания инфраструктуры PKI.
+Переместите папку "easy-gost" в `C:\cryptopack4\`.
 
-После этого создаются ключи сервера с помощью build-key-server.bat и ключи пользователей с помощью build-key.bat.
+С помощью ярылка "Командная строка МагПро КриптоПакет" на рабочем столе, созданного при установке, откройте командную строку и введите: 
+
+cd easy-gost && start build-req ACCOUNT-ID
+
+В каталоге `C:\cryptopack4\easy-gost\keys` будут созданы два файла -- ключ и запрос:
+
+    C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.key
+    C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.csr
+
+Файл с ключом скопируйте в рабочий каталог OpenVPN-ГОСТ также через командную строку:
+
+    move C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.key C:\cryptopack4\client.key
 
 ---
 
