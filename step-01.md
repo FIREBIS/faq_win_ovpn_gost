@@ -57,8 +57,6 @@
 
 ![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_6.png)
 
-после чего можно нажать "Выход" и установка продолжится:
-
-![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_7.png)
+после чего можно нажать "Выход" и установка продолжится.
 
 > На этом шаг "Настройка ПО" заканчивается. Кнопка "Продолжить" НЕ должна быть заблокирована.
