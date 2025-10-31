@@ -35,7 +35,7 @@ cd easy-gost && start build-req ACCOUNT-ID
 
 Файл с ключом скопируйте в рабочий каталог OpenVPN-ГОСТ также через командную строку:
 
-    move C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.key C:\cryptopack4\client.key
+    move C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.key C:\cryptopack4\config\client.key
 
 
 Загрузите полученный на предыдущем шаге файл C:\cryptopack4\easy-gost\keys\ACCOUNT-ID.csr

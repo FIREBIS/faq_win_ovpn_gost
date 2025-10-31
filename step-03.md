@@ -16,7 +16,7 @@
 
 > Часть для Windows систем:
 
-Скачайте и сохраните сертификат под именем `C:\cryptopack4\client.crt`.
+Скачайте и сохраните сертификат под именем `C:\cryptopack4\config\client.crt`.
 
 Скачайте и сохраните конфигурационный файл под именем `C:\cryptopack4\config\openvpn-gost.ovpn`.
 
