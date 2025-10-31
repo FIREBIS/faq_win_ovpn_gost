@@ -31,8 +31,8 @@ tls-cipher       GOST2012-MAGMA-MAGMAOMAC
 tls-ciphersuites TLS_GOSTR341112_256_WITH_MAGMA_MGM_L
 tls-groups       GC256A
 
-cert             C:\cryptopack4\config\client.crt
-key              C:\cryptopack4\config\client.key
+cert             C:\cryptopack4\client.crt
+key              C:\cryptopack4\client.key
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICKjCCAdWgAwIBAgIUHUjvkNVs/M9FH+OaE17JaJs2rJIwDAYIKoUDBwEBAwIF
