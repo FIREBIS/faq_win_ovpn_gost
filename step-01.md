@@ -43,6 +43,6 @@
 
 > Часть для Windows систем:
 
-![alt text](https://raw.githubusercontent.com/FIREBIS/faq_win_ovpn_gost/blob/main/images/install_1.png)
+![Логотип проекта](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_1.png)
 
 > На этом шаг "Настройка ПО" заканчивается. Кнопка "Продолжить" НЕ должна быть заблокирована.
