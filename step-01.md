@@ -55,7 +55,7 @@
 Папку для установки рекомендуем оставить по умлочанию "C:\cryptopack4".
 Во время установки появится окно с модулем "gmkseed", в которое необходимо перейти и нажать кнопку "Начать", затем нажимать на появляющиеся круги до момента пока они не пропадут:
 
-![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_6.png)
+![help_image](https://github.com/FIREBIS/faq_win_ovpn_gost/raw/main/images/install_06.png)
 
 после чего можно нажать "Выход" и установка продолжится.
 
